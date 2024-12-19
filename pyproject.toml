@@ -1,0 +1,15 @@
+[project]
+name = "fastapi-jwt-auth-template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "asyncmy>=0.2.10",
+    "fastapi-jwt[authlib]>=0.3.0",
+    "fastapi[standard]>=0.115.6",
+    "passlib[argon2,bcrypt]>=1.7.4",
+    "python-jose[cryptography]>=3.3.0",
+    "sqlalchemy[asyncio]>=2.0.36",
+    "structlog>=24.4.0",
+]
